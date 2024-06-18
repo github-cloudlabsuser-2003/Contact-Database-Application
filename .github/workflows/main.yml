@@ -3,7 +3,7 @@ name: Deploy ARM Template to Azure
 on:
   push:
     branches:
-      - main  # Trigger the workflow on push to the main branch; adjust as needed.
+      - master  # Trigger the workflow on push to the main branch; adjust as needed.
 
 jobs:
   deploy:
